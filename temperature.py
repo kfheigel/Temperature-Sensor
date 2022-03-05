@@ -9,8 +9,8 @@ from email.mime.image import MIMEImage
 from template import *
 
 
-gmail_sender = 'cilabtemperature@gmail.com'
-gmail_passwd = 'Password00?!'
+gmail_sender = ''
+gmail_passwd = ''
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
