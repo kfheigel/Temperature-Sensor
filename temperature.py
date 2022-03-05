@@ -33,9 +33,9 @@ def Rounding():
     return temperature, humidity
 
 '''
-temp <26: ext-krzysztof.heigel@here.com, ext-bartosz.bialobrzeski@here.com, 
-temp >26: ext-krzysztof.heigel@here.com, ext-bartosz.bialobrzeski@here.com, marco-kimpfler@here.com, oleg.tydynyan@here.com
-temp >32: ext-krzysztof.heigel@here.com, ext-bartosz.bialobrzeski@here.com, security.berlin@here.com
+temp <26: ext-krzysztof.heigel@here.com
+temp >26: ext-krzysztof.heigel@here.com
+temp >32: ext-krzysztof.heigel@here.com
 '''
 
 def EmailSend(TEXT, SUBJECT, recipients, temp):
